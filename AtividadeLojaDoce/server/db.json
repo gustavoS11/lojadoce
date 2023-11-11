@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "email": "admin@email.com",
+      "password": "$2a$10$X6Qyabkl6urEAc7w2N7ND.3go3CmgHpZttFiTmWF54esfPf8GZB/a",
+      "id": 1,
+      "isAdmin": true
+    },
+    {
+      "email": "senacrs@email.com",
+      "password": "$2a$10$nv7qfBed3R5.ua.7t1NmY.pObD8GawRhboPRQh05jYXZ6KswVD9wW",
+      "id": 2
+    }
+  ]
+}
