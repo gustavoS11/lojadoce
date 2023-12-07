@@ -11,7 +11,7 @@ async function login() {
         password: inputPassword.value
     }
     const bodyJson = JSON.stringify(user)
-    const res = await fetch(
+    const resLogin = await fetch(
         "http://localhost:3001/login",
         {
 
@@ -20,8 +20,8 @@ async function login() {
             body: bodyJson
         }
     )
-    if (res.status == 200) {
-        const resJson = await res.json()
+    if (resLogin.status == 200) {
+        const resJson = await resLogin.json()
         toastify("Ok, login efetuado com sucesso!", "ok")
         localStorage.setItem("@token-exemplo", resJson.accessToken)
         localStorage.setItem("@user-exemplo", JSON.stringify(resJson.user))
