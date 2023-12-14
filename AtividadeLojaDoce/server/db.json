@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node server.js"
+  },
   "users": [
     {
       "email": "admin@email.com",
@@ -10,6 +13,102 @@
       "email": "senacrs@email.com",
       "password": "$2a$10$nv7qfBed3R5.ua.7t1NmY.pObD8GawRhboPRQh05jYXZ6KswVD9wW",
       "id": 2
+    }
+  ],
+  "products": [
+    {
+      "nome": "cupcake",
+      "custo": 3,
+      "preco": 9,
+      "lucro": 6,
+      "id": 1
+    },
+    {
+      "nome": "cenoura",
+      "custo": 3,
+      "preco": 8,
+      "lucro": 5,
+      "id": 2
+    },
+    {
+      "nome": "rocambole",
+      "custo": 10,
+      "preco": 14,
+      "lucro": 4,
+      "id": 3
+    },
+    {
+      "nome": "fini",
+      "custo": 4,
+      "preco": 9,
+      "lucro": 5,
+      "id": 4
+    }
+  ],
+  "sale": [
+    {
+      "produto": 1,
+      "day": 5,
+      "month": 12,
+      "value": 138,
+      "id": 1
+    },
+    {
+      "produto": 3,
+      "day": 6,
+      "month": 12,
+      "value": 92,
+      "id": 2
+    },
+    {
+      "produto": 3,
+      "day": 6,
+      "month": 12,
+      "value": 92,
+      "id": 3
+    },
+    {
+      "produto": 4,
+      "day": 6,
+      "month": 12,
+      "value": 45,
+      "id": 4
+    },
+    {
+      "produto": 1,
+      "day": 6,
+      "month": 12,
+      "value": 900,
+      "id": 5
+    },
+    {
+      "produto": 3,
+      "day": 4,
+      "month": 12,
+      "value": 16,
+      "id": 6
+    },
+    {
+      "produto": 3,
+      "day": 7,
+      "month": 12,
+      "value": 2160,
+      "id": 7
+    },
+    {
+      "produto": 2,
+      "day": 2,
+      "month": 12,
+      "value": 15435,
+      "id": 8
+    }
+  ],
+  "expenses": [
+    {
+      "value": 11,
+      "day": 11,
+      "month": 12,
+      "id": 1
     }
   ]
 }
